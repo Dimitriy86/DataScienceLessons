@@ -26,5 +26,5 @@ CREATE TABLE payments (
     total INTEGER NOT NULL,
     FOREIGN KEY (employee_id) REFERENCES employees (id)
     ON DELETE CASCADE
-    ON UODATE CASCADE
+    ON UPDATE CASCADE
 );
