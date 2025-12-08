@@ -2,7 +2,7 @@ from bson.objectid import ObjectId
 from pymongo import MongoClient
 from pymongo.server_api import ServerApi
 
-url = "mongodb+srv://dmitriyshirin86_db_user:password@cluster0.mfvqt3z.mongodb.net/?appName=Cluster0"
+url = "mongodb+srv://user:password@cluster0.mfvqt3z.mongodb.net/?appName=Cluster0"
 
 client = MongoClient(url, server_api=ServerApi('1'))
 
